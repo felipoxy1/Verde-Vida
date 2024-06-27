@@ -1,0 +1,72 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #E0F8E0;
+    color: #228B22;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: #006400;
+}
+
+p {
+    font-family: 'Lora', serif;
+    color: #006400;
+}
+
+.text-colored {
+    color: #006400;
+}
+
+header {
+    background-color: #2E8B57;
+    color: #FFFFFF;
+}
+
+#header .nav .nav-link.active {
+    background-color: #FFFFFF;
+    color: #2E8B57;
+}
+
+#header .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: #FFFFFF;
+}
+
+.navbar-toggler {
+    background-color: #FFFFFF;
+}
+
+.nav-produtos .nav-link.active,
+#Contato button {
+    background-color: #006400;
+    color: #FFFFFF;
+}
+
+.nav-produtos .nav-link:hover {
+    color: #006400;
+}
+
+.nav-produtos .nav-link.active:hover {
+    color: #FFFFFF;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    background-color: #FFFFFF;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
